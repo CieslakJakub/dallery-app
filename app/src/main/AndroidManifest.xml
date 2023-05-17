@@ -12,10 +12,12 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ArtistScreen"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreenActivity"
-            android:theme="@style/Theme.Design.Light.NoActionBar"
-            android:exported="true" >
-
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,9 +26,9 @@
 
             <meta-data
                 android:name="android.app.lib_name"
-                android:value=""/>
+                android:value="" />
         </activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
