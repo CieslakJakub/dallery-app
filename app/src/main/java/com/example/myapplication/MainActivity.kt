@@ -18,5 +18,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val button = findViewById<Button>(R.id.gallery)
+        button.setOnClickListener {
+            val intent = Intent(this, MainGalleryScr::class.java)
+            startActivity(intent)
+        }
+
+        val button1 = findViewById<Button>(R.id.abtus)
+        button1.setOnClickListener {
+            val intent = Intent(this, AboutUs::class.java)
+            startActivity(intent)
+        }
+
     }
 }

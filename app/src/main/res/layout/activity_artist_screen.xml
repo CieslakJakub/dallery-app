@@ -3,8 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="409dp"
-    android:layout_height="729dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:fillViewport="true"
     >
 
@@ -15,41 +15,88 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ArtistScreen"
-        android:orientation="vertical">
-
-
+        android:orientation="vertical"
+        android:background="@color/grey">
 
 
         <ImageView
             android:id="@+id/scrollscreen"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
             android:adjustViewBounds="true"
-            android:src="@drawable/scrollimage"
+            android:scaleType="fitXY"
+            android:src="@drawable/scrollimagev2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:layout_constraintWidth="match_parent"
-            android:scaleType="fitXY"
-            android:layout_marginBottom="10dp"/>
+            app:layout_constraintWidth="match_parent" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:lineSpacingExtra="7dp"
-            android:text="Salvador Dalí, in full Salvador Felipe Jacinto Dalí y Domenech, was a prominent surrealist painter, film-maker, sculptor, and photographer born in Figueres, Spain, on 11 May 1904. He was named after his brother Salvador, who was born nine months before him and died of gastroenteritis. When Dalí was five, he was taken to his brother's grave and was told that he was his brother's reincarnation.
+            android:text="Salvador Dalí, in full Salvador Felipe Jacinto Dalí y Domenech, was a prominent surrealist painter, film-maker, sculptor, and photographer born in Figueres, Spain, on 11 May 1904. He was named after his brother Salvador, who was born nine months before him and died of gastroenteritis. When Dalí was five, he was taken to his brother's grave and was told that he was his brother's reincarnation. "/>
 
-In February 1921, Dalí's mother died of breast cancer. He later said his mother's death was the greatest blow he had experienced in his life. After her death, Dalí's father married his deceased wife's sister. In 1922, Dalí moved to Madrid and studied at the Real Academia de Bellas Artes de San Fernando where he already drew attention as an eccentric and dandy. He was influenced by several different artistic styles, including Metaphysics and Cubism. Dalí was expelled from the Academy in 1926, shortly before his final exams when he was causing problems with the teachers. Neverless Dalí had complained no one in his art school was sufficiently competent to judge him. Not long after that, he was imprisoned for a short time for supposedly opposing the dictatorship of Spain.
 
-In August 1929, Dalí met his lifelong and primary muse, inspiration, and future wife Gala. She was a Russian immigrant ten years his senior. They married in 1934. In addition to inspiring many artworks throughout her life, Gala would act as Dalí's business manager.
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Early life"
+                android:textSize="50dp"/>
 
- In 1980 at age 76, Dalí's health took a catastrophic turn. His right hand trembled terribly, with Parkinson-like symptoms. His near-senile wife allegedly had been dosing him with a dangerous cocktail of unprescribed medicine that damaged his nervous system, thus causing an untimely end to his artistic capacity.
-His wife Gala died on 10 June 1982, at the age of 87. After Gala's death, Dalí lost much of his will to live. On the morning of 23 January 1989, while his favorite record of Tristan and Isolde played, Dalí died of heart failure at Figueres at the age of 84. He wrote an autobiography called The Secret Life of Salvador Dali. Some of the stories in the book are true, but some are just made up."></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="7dp"
+            android:text="In February 1921, Dalí's mother died of breast cancer. He later said his mother's death was the greatest blow he had experienced in his life. After her death, Dalí's father married his deceased wife's sister. In 1922, Dalí moved to Madrid and studied at the Real Academia de Bellas Artes de San Fernando where he already drew attention as an eccentric and dandy. He was influenced by several different artistic styles, including Metaphysics and Cubism. Dalí was expelled from the Academy in 1926, shortly before his final exams when he was causing problems with the teachers. Neverless Dalí had complained no one in his art school was sufficiently competent to judge him. Not long after that, he was imprisoned for a short time for supposedly opposing the dictatorship of Spain."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gala"
+            android:textSize="50dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="7dp"
+            android:text="In August 1929, Dalí met his lifelong and primary muse, inspiration, and future wife Gala. She was a Russian immigrant ten years his senior. They married in 1934. In addition to inspiring many artworks throughout her life, Gala would act as Dalí's business manager."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Death"
+            android:textSize="50dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="7dp"
+            android:text="In 1980 at age 76, Dalí's health took a catastrophic turn. His right hand trembled terribly, with Parkinson-like symptoms. His near-senile wife allegedly had been dosing him with a dangerous cocktail of unprescribed medicine that damaged his nervous system, thus causing an untimely end to his artistic capacity. His wife Gala died on 10 June 1982, at the age of 87. After Gala's death, Dalí lost much of his will to live. On the morning of 23 January 1989, while his favorite record of Tristan and Isolde played, Dalí died of heart failure at Figueres at the age of 84. He wrote an autobiography called The Secret Life of Salvador Dali. Some of the stories in the book are true, but some are just made up."></TextView>
+
+
+
+
+
 
 
 

@@ -25,12 +25,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
         android:background="?android:attr/selectableItemBackgroundBorderless"
         android:text="HOME"
         android:textColor="@color/black"
         android:textSize="30dp"
         android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/elephant"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
 
@@ -47,6 +49,7 @@
 
         android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/elephant"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
 
@@ -63,6 +66,7 @@
 
         android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/elephant"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
 
@@ -72,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="664dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
         android:background="?android:attr/selectableItemBackgroundBorderless"
         android:text="ABOUT US"
         android:textColor="@color/black"
@@ -79,6 +84,7 @@
         android:visibility="visible"
 
         app:layout_constraintEnd_toStartOf="@+id/elephant"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
 
