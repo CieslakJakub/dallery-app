@@ -18,5 +18,11 @@ class MainGalleryScr : AppCompatActivity() {
             val intent = Intent(this, GalleryScreen::class.java)
             startActivity(intent)
         }
+
+        val buttonClick1 = findViewById<ImageButton>(R.id.sailbtn)
+        buttonClick1.setOnClickListener {
+            val intent = Intent(this, GalleryScreen_sail::class.java)
+            startActivity(intent)
+        }
     }
 }

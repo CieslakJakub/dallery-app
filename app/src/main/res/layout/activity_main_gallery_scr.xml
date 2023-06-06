@@ -34,12 +34,12 @@
             android:src="@drawable/time"/>
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/sail"
             android:id="@+id/sailbtn"
+            android:layout_width="305dp"
+            android:layout_height="508dp"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="50dp"
+            android:src="@drawable/salev2" />
 
         <ImageButton
             android:layout_width="wrap_content"

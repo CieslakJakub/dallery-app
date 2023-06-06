@@ -12,9 +12,17 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".AboutUs"
+            android:name=".GalleryScreen_sail"
             android:exported="false"
             android:theme="@style/Theme.Design.Light.NoActionBar"/>
+        <activity
+            android:name=".sale_seemore"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar"/>
+        <activity
+            android:name=".AboutUs"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
         <activity
             android:name=".Time_seemore"
             android:exported="false"
