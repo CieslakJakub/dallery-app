@@ -24,5 +24,11 @@ class MainGalleryScr : AppCompatActivity() {
             val intent = Intent(this, GalleryScreen_sail::class.java)
             startActivity(intent)
         }
+
+        val buttonClick2 = findViewById<ImageButton>(R.id.scarry_facebtn)
+        buttonClick2.setOnClickListener {
+            val intent = Intent(this, GalleryScreen_face::class.java)
+            startActivity(intent)
+        }
     }
 }
