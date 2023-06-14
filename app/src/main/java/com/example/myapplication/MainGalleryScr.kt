@@ -30,5 +30,11 @@ class MainGalleryScr : AppCompatActivity() {
             val intent = Intent(this, GalleryScreen_face::class.java)
             startActivity(intent)
         }
+
+        val buttonClick3 = findViewById<Button>(R.id.bhome)
+        buttonClick3.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

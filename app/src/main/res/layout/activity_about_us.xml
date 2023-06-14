@@ -44,4 +44,13 @@
         tools:layout_editor_absoluteX="-16dp"
         android:layout_marginBottom="90sp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jakub Cieślak 48263 | Julia Konieczna | Zofia | Miłosz Mroziński"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
