@@ -47,10 +47,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Jakub Cieślak 48263 | Julia Konieczna | Zofia | Miłosz Mroziński"
+        android:text="Jakub Cieślak 48263 | Julia Konieczna 46957 | Zofia Winkel 47249 | Miłosz Mroziński 45485"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:gravity="center"
+        android:textSize="13dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
